@@ -17,6 +17,8 @@
 
 ---
 
+[View colab notebook](https://colab.research.google.com/drive/1qn9tLHnWus-UnTxWiR4rnxjWQdNMREZR?usp=sharing)
+
 ##  Overview
 
 Pure LLMs fail in high-stakes medical settings — they hallucinate diagnoses, ignore clinical rules, and waste context on irrelevant information. This project implements **Adaptive Symbolic Grounding (ASG)**, a neurosymbolic architecture where the Knowledge Graph and LLM collaborate: the symbolic layer activates exactly when the neural model needs grounding.
