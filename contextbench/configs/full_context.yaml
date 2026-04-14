@@ -1,0 +1,14 @@
+cost_per_1k_tokens: 0.0002
+dataset: patient_records_and_clinical_guidelines
+experiment_name: contextbench_full_context
+max_new_tokens: 300
+model: unsloth/mistral-7b-instruct-v0.3-bnb-4bit
+policy: full_context
+policy_description: Entire patient history + all ontology knowledge passed in context
+systems:
+- base_model
+- pretrained_model
+- baseline_agent
+- neurosymbolic_agent
+token_budget: 2048
+use_case: Healthcare Clinical Decision Assistant

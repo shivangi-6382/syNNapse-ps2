@@ -1,0 +1,5 @@
+System,Phase,Diagnosis Acc (%),Hallucination (%),Task Success (%),CB Accuracy (%),Avg Tokens,Cost/Query ($),Ctx Efficiency
+🔵 Base Model,Model Bench,30.0,68.0,-,22.2,458.9,$0.00009,0.583
+🟠 Pretrained (LoRA),Model Bench,60.0,40.0,-,33.3,315.6,$0.00006,1.211
+🟡 Baseline Agent,Agent Bench,38.5,53.8,38.5,61.1,390.9,$0.00008,1.867
+🟢 Neurosymbolic Agent,Agent Bench,53.8,46.2,53.8,100.0,440.6,$0.00009,2.618

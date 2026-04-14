@@ -1,0 +1,10 @@
+{
+  "model": "Pretrained Model (LoRA)",
+  "total_samples": 50,
+  "disease_accuracy_pct": 60.0,
+  "avg_keyword_score_pct": 47.1,
+  "hallucination_rate_pct": 40.0,
+  "avg_latency_sec": 5.82,
+  "avg_output_tokens": 87.0,
+  "total_output_tokens": 4352
+}

@@ -1,0 +1,14 @@
+cost_per_1k_tokens: 0.0002
+dataset: patient_records_and_clinical_guidelines
+experiment_name: contextbench_compression
+max_new_tokens: 300
+model: unsloth/mistral-7b-instruct-v0.3-bnb-4bit
+policy: compression_policy
+policy_description: Compress patient history to key facts + selective ontology retrieval
+systems:
+- base_model
+- pretrained_model
+- baseline_agent
+- neurosymbolic_agent
+token_budget: 512
+use_case: Healthcare Clinical Decision Assistant

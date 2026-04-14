@@ -1,0 +1,5 @@
+System,Task Success (%),Hallucination (%),Avg Tokens,Cost/Query ($),Latency (s),Context Efficiency,Treatment Score (%)
+🔵 Base Model,22.2,27.8,458,9.2e-05,15.76,0.583,23.6
+🟠 Pretrained (LoRA),33.3,66.7,315,6.3e-05,8.72,1.211,61.1
+🟡 Baseline Agent,61.1,38.9,390,7.8e-05,7.07,1.867,59.3
+🟢 Neurosymbolic Agent,100.0,0.0,440,8.8e-05,7.0,2.618,87.0

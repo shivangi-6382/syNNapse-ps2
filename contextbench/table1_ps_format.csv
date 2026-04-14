@@ -1,0 +1,5 @@
+System,Accuracy (%),Avg Token Usage,Cost per Query ($),Hallucination (%)
+🔵 Base Model,22.2,458,$0.00009,27.8
+🟠 Pretrained (LoRA),33.3,315,$0.00006,66.7
+🟡 Baseline Agent,61.1,390,$0.00008,38.9
+🟢 Neurosymbolic Agent,100.0,440,$0.00009,0.0

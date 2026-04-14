@@ -1,0 +1,188 @@
+{
+  "per_policy": {
+    "full_context": {
+      "base_model": {
+        "hallucination_rate_pct": 16.7,
+        "task_success_rate_pct": 33.3,
+        "avg_token_usage": 640.3,
+        "avg_cost_per_query": 0.000128,
+        "avg_latency_sec": 17.01,
+        "avg_context_efficiency": 1.087,
+        "avg_treatment_score_pct": 30.6,
+        "avg_budget_used_pct": 31.3,
+        "total_tasks": 6
+      },
+      "pretrained_model": {
+        "hallucination_rate_pct": 50.0,
+        "task_success_rate_pct": 50.0,
+        "avg_token_usage": 531.8,
+        "avg_cost_per_query": 0.000106,
+        "avg_latency_sec": 11.93,
+        "avg_context_efficiency": 1.853,
+        "avg_treatment_score_pct": 72.2,
+        "avg_budget_used_pct": 26.0,
+        "total_tasks": 6
+      },
+      "baseline_agent": {
+        "hallucination_rate_pct": 16.7,
+        "task_success_rate_pct": 83.3,
+        "avg_token_usage": 622.5,
+        "avg_cost_per_query": 0.000125,
+        "avg_latency_sec": 6.6,
+        "avg_context_efficiency": 2.75,
+        "avg_treatment_score_pct": 63.9,
+        "avg_budget_used_pct": 30.4,
+        "total_tasks": 6
+      },
+      "neurosymbolic_agent": {
+        "hallucination_rate_pct": 0.0,
+        "task_success_rate_pct": 100.0,
+        "avg_token_usage": 705.8,
+        "avg_cost_per_query": 0.000141,
+        "avg_latency_sec": 7.39,
+        "avg_context_efficiency": 2.908,
+        "avg_treatment_score_pct": 90.3,
+        "avg_budget_used_pct": 34.5,
+        "total_tasks": 6
+      }
+    },
+    "rag_policy": {
+      "base_model": {
+        "hallucination_rate_pct": 33.3,
+        "task_success_rate_pct": 16.7,
+        "avg_token_usage": 412.8,
+        "avg_cost_per_query": 8.2e-05,
+        "avg_latency_sec": 15.25,
+        "avg_context_efficiency": 0.401,
+        "avg_treatment_score_pct": 8.3,
+        "avg_budget_used_pct": 40.3,
+        "total_tasks": 6
+      },
+      "pretrained_model": {
+        "hallucination_rate_pct": 83.3,
+        "task_success_rate_pct": 16.7,
+        "avg_token_usage": 257.8,
+        "avg_cost_per_query": 5.1e-05,
+        "avg_latency_sec": 7.58,
+        "avg_context_efficiency": 0.72,
+        "avg_treatment_score_pct": 50.0,
+        "avg_budget_used_pct": 25.2,
+        "total_tasks": 6
+      },
+      "baseline_agent": {
+        "hallucination_rate_pct": 33.3,
+        "task_success_rate_pct": 66.7,
+        "avg_token_usage": 370.8,
+        "avg_cost_per_query": 7.4e-05,
+        "avg_latency_sec": 7.89,
+        "avg_context_efficiency": 1.877,
+        "avg_treatment_score_pct": 77.8,
+        "avg_budget_used_pct": 36.2,
+        "total_tasks": 6
+      },
+      "neurosymbolic_agent": {
+        "hallucination_rate_pct": 0.0,
+        "task_success_rate_pct": 100.0,
+        "avg_token_usage": 393.5,
+        "avg_cost_per_query": 7.9e-05,
+        "avg_latency_sec": 5.85,
+        "avg_context_efficiency": 2.606,
+        "avg_treatment_score_pct": 82.0,
+        "avg_budget_used_pct": 38.4,
+        "total_tasks": 6
+      }
+    },
+    "compression_policy": {
+      "base_model": {
+        "hallucination_rate_pct": 33.3,
+        "task_success_rate_pct": 16.7,
+        "avg_token_usage": 323.7,
+        "avg_cost_per_query": 6.4e-05,
+        "avg_latency_sec": 15.0,
+        "avg_context_efficiency": 0.262,
+        "avg_treatment_score_pct": 31.9,
+        "avg_budget_used_pct": 63.2,
+        "total_tasks": 6
+      },
+      "pretrained_model": {
+        "hallucination_rate_pct": 66.7,
+        "task_success_rate_pct": 33.3,
+        "avg_token_usage": 157.2,
+        "avg_cost_per_query": 3.1e-05,
+        "avg_latency_sec": 6.65,
+        "avg_context_efficiency": 1.06,
+        "avg_treatment_score_pct": 61.1,
+        "avg_budget_used_pct": 30.7,
+        "total_tasks": 6
+      },
+      "baseline_agent": {
+        "hallucination_rate_pct": 66.7,
+        "task_success_rate_pct": 33.3,
+        "avg_token_usage": 179.3,
+        "avg_cost_per_query": 3.6e-05,
+        "avg_latency_sec": 6.74,
+        "avg_context_efficiency": 0.974,
+        "avg_treatment_score_pct": 36.1,
+        "avg_budget_used_pct": 35.0,
+        "total_tasks": 6
+      },
+      "neurosymbolic_agent": {
+        "hallucination_rate_pct": 0.0,
+        "task_success_rate_pct": 100.0,
+        "avg_token_usage": 222.3,
+        "avg_cost_per_query": 4.4e-05,
+        "avg_latency_sec": 7.75,
+        "avg_context_efficiency": 2.339,
+        "avg_treatment_score_pct": 88.9,
+        "avg_budget_used_pct": 43.4,
+        "total_tasks": 6
+      }
+    }
+  },
+  "overall": {
+    "base_model": {
+      "hallucination_rate_pct": 27.8,
+      "task_success_rate_pct": 22.2,
+      "avg_token_usage": 458.9,
+      "avg_cost_per_query": 9.2e-05,
+      "avg_latency_sec": 15.76,
+      "avg_context_efficiency": 0.583,
+      "avg_treatment_score_pct": 23.6,
+      "avg_budget_used_pct": 44.9,
+      "total_tasks": 18
+    },
+    "pretrained_model": {
+      "hallucination_rate_pct": 66.7,
+      "task_success_rate_pct": 33.3,
+      "avg_token_usage": 315.6,
+      "avg_cost_per_query": 6.3e-05,
+      "avg_latency_sec": 8.72,
+      "avg_context_efficiency": 1.211,
+      "avg_treatment_score_pct": 61.1,
+      "avg_budget_used_pct": 27.3,
+      "total_tasks": 18
+    },
+    "baseline_agent": {
+      "hallucination_rate_pct": 38.9,
+      "task_success_rate_pct": 61.1,
+      "avg_token_usage": 390.9,
+      "avg_cost_per_query": 7.8e-05,
+      "avg_latency_sec": 7.07,
+      "avg_context_efficiency": 1.867,
+      "avg_treatment_score_pct": 59.3,
+      "avg_budget_used_pct": 33.9,
+      "total_tasks": 18
+    },
+    "neurosymbolic_agent": {
+      "hallucination_rate_pct": 0.0,
+      "task_success_rate_pct": 100.0,
+      "avg_token_usage": 440.6,
+      "avg_cost_per_query": 8.8e-05,
+      "avg_latency_sec": 7.0,
+      "avg_context_efficiency": 2.618,
+      "avg_treatment_score_pct": 87.0,
+      "avg_budget_used_pct": 38.8,
+      "total_tasks": 18
+    }
+  }
+}

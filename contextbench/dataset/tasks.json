@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "query": "Patient has intense itching especially at night and small blisters on skin. What is the diagnosis and treatment?",
+    "symptoms": [
+      "intense itching",
+      "especially at night",
+      "small blisters or bumps"
+    ],
+    "expected_disease": "Scabies",
+    "expected_keywords": [
+      "scabicides",
+      "hot water",
+      "washing"
+    ],
+    "patient_history": "Patient ID: MED-2024-001\nAge: 34 | Gender: Female | Visit Date: 2024-01-15\nChief Complaint: Severe itching for 3 weeks\n\nHistory of Present Illness:\nPatient presents with a 3-week history of intense generalized pruritus, predominantly worse at nighttime. She reports the itching is so severe it disrupts her sleep. On examination, small erythematous papules and vesicles noted on web spaces of fingers, wrists, and ankles. Her husband also reports similar symptoms starting 1 week after hers began.\n\nPast Medical History: No significant conditions. Appendectomy 2019.\nMedications: None currently. Allergic to Penicillin.\nSocial History: Lives with husband and two children. Works as schoolteacher.\nReview of Systems: Itching worse at night. No fever. No respiratory symptoms.\n\nVitals: BP 118/76, HR 72, Temp 37.1\u00b0C, RR 16, SpO2 98%\nPhysical Exam: Multiple small vesicles and papules in interdigital spaces bilaterally. Excoriation marks present. No lymphadenopathy."
+  },
+  {
+    "id": 2,
+    "query": "Patient complains of blurred distance vision, eyestrain, and squinting. Diagnose and suggest treatment.",
+    "symptoms": [
+      "blurred distance vision",
+      "eyestrain",
+      "squinting"
+    ],
+    "expected_disease": "Myopia",
+    "expected_keywords": [
+      "eyeglasses",
+      "contact lenses",
+      "LASIK"
+    ],
+    "patient_history": "Patient ID: MED-2024-002\nAge: 17 | Gender: Male | Visit Date: 2024-02-08\nChief Complaint: Difficulty seeing the whiteboard at school\n\nHistory of Present Illness:\n17-year-old male presents with a 6-month history of progressively worsening difficulty seeing objects at a distance. He reports squinting to see the whiteboard at school and frequent headaches after prolonged reading or screen use. Mother reports he holds books very close to his face. No diplopia or flashes.\n\nPast Medical History: Mild asthma (well-controlled on PRN albuterol). Eczema (resolved).\nFamily History: Mother wears prescription glasses for myopia since age 15.\nSocial History: Student, spends approximately 6 hours/day on screens.\nMedications: Albuterol inhaler PRN\n\nVitals: BP 110/70, HR 68, Temp 36.9\u00b0C\nEye Exam: Visual acuity OD 20/200, OS 20/150 uncorrected. Cover test normal. EOM intact. No papilledema. Fundoscopy normal."
+  },
+  {
+    "id": 3,
+    "query": "Emergency patient with headache, confusion, and dizziness. What is the critical diagnosis and immediate treatment protocol?",
+    "symptoms": [
+      "headache",
+      "confusion",
+      "dizziness",
+      "nausea or vomiting"
+    ],
+    "expected_disease": "Subdural hemorrhage",
+    "expected_keywords": [
+      "immediate medical attention",
+      "CT",
+      "MRI",
+      "surgical"
+    ],
+    "patient_history": "Patient ID: MED-2024-003\nAge: 68 | Gender: Male | Visit Date: 2024-03-01 \u2014 EMERGENCY\nChief Complaint: Sudden onset severe headache and confusion \u2014 BROUGHT BY FAMILY\n\nHistory of Present Illness:\n68-year-old male brought to ER by family after sudden onset of severe headache described as 'worst headache of my life' approximately 2 hours ago. Family reports increasing confusion, disorientation to time and place, and two episodes of vomiting. No witnessed seizures. History of fall from ladder 10 days ago with head trauma \u2014 was cleared at urgent care at the time.\n\nPast Medical History: Hypertension (on lisinopril), Type 2 DM (metformin), Atrial Fibrillation (on warfarin \u2014 CRITICAL).\nCurrent Medications: Lisinopril 10mg, Metformin 1000mg, WARFARIN 5mg daily.\nAllergies: Sulfa drugs.\nVitals: BP 178/102 (elevated), HR 88 irregular, Temp 37.0\u00b0C, GCS 13/15\nNeuro Exam: Confused, oriented to person only. Pupils 3mm equal reactive. Mild left-sided weakness noted. No neck stiffness."
+  },
+  {
+    "id": 4,
+    "query": "Patient with cough with phlegm, chest pain, and fever. Is this a pulmonary emergency? Diagnose and treat.",
+    "symptoms": [
+      "cough with phlegm or pus",
+      "chest pain",
+      "fever",
+      "shortness of breath"
+    ],
+    "expected_disease": "Abscess of the Lung",
+    "expected_keywords": [
+      "antibiotics",
+      "drainage",
+      "surgical"
+    ],
+    "patient_history": "Patient ID: MED-2024-004\nAge: 52 | Gender: Male | Visit Date: 2024-03-15\nChief Complaint: 3-week productive cough with foul-smelling sputum and fever\n\nHistory of Present Illness:\n52-year-old male with 3-week history of productive cough yielding large amounts of foul-smelling greenish sputum. Reports pleuritic chest pain on right side, fever with night sweats, and significant fatigue and weight loss of 5kg over 3 weeks. Reports history of aspiration event 4 weeks ago following dental procedure under general anaesthesia.\n\nPast Medical History: Alcohol use disorder (still drinking). GERD. No prior lung disease.\nSocial History: Retired construction worker. Smoker (30 pack-years). Alcohol \u2014 approximately 8 units/day.\nMedications: Omeprazole 20mg.\nVitals: BP 105/70 (low), HR 102 (tachycardia), Temp 38.9\u00b0C (febrile), RR 24/min, SpO2 91% on room air\nChest Exam: Dullness to percussion right lower zone. Decreased air entry right base. Crackles heard.\nCXR: Right lower lobe opacity with possible air-fluid level."
+  },
+  {
+    "id": 5,
+    "query": "Cloudy eyes, excessive tearing, sensitivity to light in a newborn. What condition and what are the surgical options?",
+    "symptoms": [
+      "cloudy or hazy eyes",
+      "excessive tearing",
+      "sensitivity to light"
+    ],
+    "expected_disease": "Congenital Glaucoma",
+    "expected_keywords": [
+      "surgery",
+      "trabeculotomy",
+      "intraocular pressure"
+    ],
+    "patient_history": "Patient ID: MED-2024-005 (PAEDIATRIC)\nAge: 4 weeks | Gender: Female | Visit Date: 2024-04-02\nChief Complaint: Parents concerned about baby's eyes appearing cloudy since birth\n\nHistory of Present Illness:\n4-week-old female infant brought by parents due to concern about cloudy appearance of both eyes since birth. Parents note excessive tearing, infant appears to squint in normal light (photophobia), and repeatedly rubs eyes. Eyes appear larger than expected for age. No family history of eye conditions. Normal full-term delivery at 39 weeks. No complications during pregnancy.\n\nBirth History: G1P1, spontaneous vaginal delivery, Apgar 8 and 9.\nNeonatal Screen: Normal. Hearing screen passed.\nFamily History: No glaucoma, cataracts or other eye conditions.\nVitals: Weight 4.1kg (50th centile). Length 52cm. HC 36cm.\nEye Exam: Corneal diameter both eyes 12mm (enlarged). Corneal oedema with Haab's striae visible. IOP estimated elevated. Fundoscopy: optic disc cupping noted bilaterally."
+  },
+  {
+    "id": 6,
+    "query": "Itchy skin particularly on hands and feet during pregnancy. What should be the differential diagnosis?",
+    "symptoms": [
+      "itchy skin",
+      "particularly on the hands and feet"
+    ],
+    "expected_disease": "Gestational Cholestasis",
+    "expected_keywords": [],
+    "patient_history": "Patient ID: MED-2024-006\nAge: 29 | Gender: Female (28 weeks pregnant) | Visit Date: 2024-05-10\nChief Complaint: Severe itching hands and feet for 2 weeks\n\nHistory of Present Illness:\n29-year-old woman at 28 weeks gestation presents with 2-week history of intense pruritus predominantly affecting the palms of the hands and soles of the feet. Itching is worse at night. No rash visible on skin. No jaundice noted. Reports dark urine for past 5 days. LFTs ordered urgently. First pregnancy. No prior liver disease.\n\nObstetric History: G1P0. Routine anomaly scan normal at 20 weeks.\nPast Medical History: No liver disease. No prior skin conditions.\nFamily History: Sister had similar itching in her second pregnancy.\nMedications: Folic acid, iron supplement, vitamin D.\nVitals: BP 118/74, HR 82, Temp 37.0\u00b0C\nInvestigations: ALT 98 U/L (elevated), AST 76 U/L (elevated), Bile acids pending.\nAbdomen: Gravid uterus appropriate for dates. Fetal heart sounds normal."
+  }
+]

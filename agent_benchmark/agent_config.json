@@ -1,0 +1,14 @@
+{
+  "BASE_DIR": "/content/drive/MyDrive/syNNapse26",
+  "LORA_DIR": "/content/drive/MyDrive/syNNapse26/lora_model",
+  "BASE_RES": "/content/drive/MyDrive/syNNapse26/base_results",
+  "PT_RES": "/content/drive/MyDrive/syNNapse26/pretrained_results",
+  "PLOTS_DIR": "/content/drive/MyDrive/syNNapse26/plots",
+  "MODEL_NAME": "unsloth/mistral-7b-instruct-v0.3-bnb-4bit",
+  "MAX_SEQ_LENGTH": 512,
+  "LOAD_IN_4BIT": true,
+  "AGENT_DIR": "/content/drive/MyDrive/syNNapse26/agent_benchmark",
+  "BASELINE_DIR": "/content/drive/MyDrive/syNNapse26/agent_benchmark/baseline_agent",
+  "NEURO_DIR": "/content/drive/MyDrive/syNNapse26/agent_benchmark/neurosymbolic_agent",
+  "AGENT_PLOTS": "/content/drive/MyDrive/syNNapse26/agent_benchmark/plots"
+}

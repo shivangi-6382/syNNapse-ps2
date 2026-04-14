@@ -1,0 +1,13 @@
+Policy,System,Success (%),Halluc (%),Tokens,Cost ($),Latency (s),Ctx Efficiency
+Full Context,🔵 Base Model,33.3,16.7,640,$0.00013,17.01,1.087
+Full Context,🟠 Pretrained (LoRA),50.0,50.0,531,$0.00011,11.93,1.853
+Full Context,🟡 Baseline Agent,83.3,16.7,622,$0.00013,6.6,2.75
+Full Context,🟢 Neurosymbolic Agent,100.0,0.0,705,$0.00014,7.39,2.908
+Rag Policy,🔵 Base Model,16.7,33.3,412,$0.00008,15.25,0.401
+Rag Policy,🟠 Pretrained (LoRA),16.7,83.3,257,$0.00005,7.58,0.72
+Rag Policy,🟡 Baseline Agent,66.7,33.3,370,$0.00007,7.89,1.877
+Rag Policy,🟢 Neurosymbolic Agent,100.0,0.0,393,$0.00008,5.85,2.606
+Compression Policy,🔵 Base Model,16.7,33.3,323,$0.00006,15.0,0.262
+Compression Policy,🟠 Pretrained (LoRA),33.3,66.7,157,$0.00003,6.65,1.06
+Compression Policy,🟡 Baseline Agent,33.3,66.7,179,$0.00004,6.74,0.974
+Compression Policy,🟢 Neurosymbolic Agent,100.0,0.0,222,$0.00004,7.75,2.339

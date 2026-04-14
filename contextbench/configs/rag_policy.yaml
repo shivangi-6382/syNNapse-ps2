@@ -1,0 +1,14 @@
+cost_per_1k_tokens: 0.0002
+dataset: patient_records_and_clinical_guidelines
+experiment_name: contextbench_rag_policy
+max_new_tokens: 300
+model: unsloth/mistral-7b-instruct-v0.3-bnb-4bit
+policy: rag_policy
+policy_description: Only retrieve relevant ontology subgraph for current query
+systems:
+- base_model
+- pretrained_model
+- baseline_agent
+- neurosymbolic_agent
+token_budget: 1024
+use_case: Healthcare Clinical Decision Assistant

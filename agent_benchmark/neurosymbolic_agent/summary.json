@@ -1,0 +1,52 @@
+{
+  "agent_type": "neurosymbolic",
+  "total_tasks": 13,
+  "disease_accuracy_pct": 53.8,
+  "avg_treatment_score_pct": 50.4,
+  "hallucination_rate_pct": 46.2,
+  "rule_adherence_pct": 76.9,
+  "avg_reasoning_depth": 0.15,
+  "avg_grounding_score": 0.259,
+  "avg_latency_sec": 6.22,
+  "avg_output_tokens": 80.8,
+  "total_output_tokens": 1051,
+  "avg_scaffold_tokens": 303.5,
+  "task_type_breakdown": {
+    "differential_diagnosis": {
+      "count": 2,
+      "disease_accuracy_pct": 50.0,
+      "hallucination_pct": 50.0,
+      "avg_grounding": 0.222
+    },
+    "rule_based_reasoning": {
+      "count": 2,
+      "disease_accuracy_pct": 50.0,
+      "hallucination_pct": 50.0,
+      "avg_grounding": 0.238
+    },
+    "treatment_planning": {
+      "count": 2,
+      "disease_accuracy_pct": 50.0,
+      "hallucination_pct": 50.0,
+      "avg_grounding": 0.188
+    },
+    "complex_multi_symptom": {
+      "count": 2,
+      "disease_accuracy_pct": 50.0,
+      "hallucination_pct": 50.0,
+      "avg_grounding": 0.271
+    },
+    "single_hop_diagnosis": {
+      "count": 3,
+      "disease_accuracy_pct": 66.7,
+      "hallucination_pct": 33.3,
+      "avg_grounding": 0.205
+    },
+    "multi_hop_treatment": {
+      "count": 2,
+      "disease_accuracy_pct": 50.0,
+      "hallucination_pct": 50.0,
+      "avg_grounding": 0.459
+    }
+  }
+}

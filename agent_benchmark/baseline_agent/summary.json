@@ -1,0 +1,44 @@
+{
+  "agent_type": "baseline_llm_only",
+  "total_tasks": 13,
+  "disease_accuracy_pct": 38.5,
+  "avg_treatment_score_pct": 61.9,
+  "hallucination_rate_pct": 53.8,
+  "rule_adherence_pct": 92.3,
+  "avg_reasoning_depth": 0.31,
+  "avg_latency_sec": 7.62,
+  "avg_output_tokens": 98.2,
+  "total_output_tokens": 1276,
+  "task_type_breakdown": {
+    "differential_diagnosis": {
+      "count": 2,
+      "disease_accuracy_pct": 0.0,
+      "hallucination_pct": 50.0
+    },
+    "rule_based_reasoning": {
+      "count": 2,
+      "disease_accuracy_pct": 50.0,
+      "hallucination_pct": 50.0
+    },
+    "treatment_planning": {
+      "count": 2,
+      "disease_accuracy_pct": 100.0,
+      "hallucination_pct": 0.0
+    },
+    "complex_multi_symptom": {
+      "count": 2,
+      "disease_accuracy_pct": 0.0,
+      "hallucination_pct": 100.0
+    },
+    "single_hop_diagnosis": {
+      "count": 3,
+      "disease_accuracy_pct": 33.3,
+      "hallucination_pct": 66.7
+    },
+    "multi_hop_treatment": {
+      "count": 2,
+      "disease_accuracy_pct": 50.0,
+      "hallucination_pct": 50.0
+    }
+  }
+}

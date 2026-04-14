@@ -1,0 +1,19 @@
+{
+  "BASE_DIR": "/content/drive/MyDrive/syNNapse26",
+  "CB_DIR": "/content/drive/MyDrive/syNNapse26/contextbench",
+  "PLOTS_DIR": "/content/drive/MyDrive/syNNapse26/contextbench/plots",
+  "YAML_DIR": "/content/drive/MyDrive/syNNapse26/contextbench/configs",
+  "MODEL_NAME": "unsloth/mistral-7b-instruct-v0.3-bnb-4bit",
+  "LORA_DIR": "/content/drive/MyDrive/syNNapse26/lora_model",
+  "POLICIES": [
+    "full_context",
+    "rag_policy",
+    "compression_policy"
+  ],
+  "SYSTEMS": [
+    "base_model",
+    "pretrained_model",
+    "baseline_agent",
+    "neurosymbolic_agent"
+  ]
+}

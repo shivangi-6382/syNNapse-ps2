@@ -1,0 +1,10 @@
+{
+  "model": "Base Model",
+  "total_samples": 50,
+  "disease_accuracy_pct": 30.0,
+  "avg_keyword_score_pct": 8.0,
+  "hallucination_rate_pct": 68.0,
+  "avg_latency_sec": 11.51,
+  "avg_output_tokens": 200.0,
+  "total_output_tokens": 10000
+}

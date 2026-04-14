@@ -1,0 +1,8 @@
+
+=== Clinical Guidelines Summary ===
+Scabies: intense itching especially at night, small blisters. Rule: itching AND night symptoms. Treatment: scabicides, wash in hot water.
+Myopia: blurred distance vision, eyestrain, squinting. Treatment: eyeglasses, contact lenses, LASIK.
+Subdural hemorrhage: headache AND confusion (CRITICAL RULE). Treatment: immediate CT/MRI, possible surgery.
+Abscess of the Lung: cough with phlegm AND chest pain. Treatment: IV antibiotics, drainage, surgery if needed.
+Congenital Glaucoma: cloudy eyes AND excessive tearing. Treatment: trabeculotomy/goniotomy surgery.
+Gestational Cholestasis: itchy skin on hands/feet during pregnancy. Elevated bile acids. Treatment: ursodeoxycholic acid.
