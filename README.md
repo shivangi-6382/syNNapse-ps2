@@ -11,8 +11,7 @@
 
 **Combining Neural Reasoning with Symbolic Knowledge for Explainable, Hallucination-Free Medical AI**
 
-[Overview](#-overview) • [Architecture](#-architecture) • [Benchmarks](#-benchmarks) • [Results](#-results) • [Setup](#-setup) • [Tech Stack](#-tech-stack)
-
+ 
 </div>
 
 ---
