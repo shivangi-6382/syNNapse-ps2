@@ -1,18 +1,6 @@
 # NeuroSymbolic AI — Healthcare Clinical Decision Assistant
 
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-FFD21E?logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-Agent-1C3C3C?logo=langchain&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Event](https://img.shields.io/badge/syNNapse'26-Problem%20Statement%202-purple)
-
-**Combining Neural Reasoning with Symbolic Knowledge for Explainable, Hallucination-Free Medical AI**
-
  
-</div>
 
 ---
 
